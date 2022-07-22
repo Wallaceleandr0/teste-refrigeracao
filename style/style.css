@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+img {
+    width: 100%;
+}
+
+:root {
+    --corPrincipal-- :#4787af;
+    --maisEscuro-- : #2b78a8;
+    --maisForte-- : #165074;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4787af;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+    font-size: 1.3em;
+}
+
+.menu-2 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-2 a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 1.1em;
+}
+
+.menu-2 a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+.info-1 {
+    display: block;
+    background-image: url(../img/gelo.jpg);
+    height: 400px;
+    margin-top: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.info-1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 290px;
+    margin: 0 auto;
+    color: white;
+    background-color: var(--corPrincipal--);
+}
+
+.box {
+    padding-top: 200px;
+}
+
+.agendar {
+    position: relative;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+}
+
+.agendar:hover {
+    font-size: 20px;
+}
+
+.main-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title p {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicos p {
+    max-width: 250px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+.servicos img {
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.flex {
+    margin: 15px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+.obras {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.obras h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.9em;
+    margin-bottom: 70px;
+}
+
+.obras a {
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: var(--corPrincipal--);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.obras a:hover {
+    background-color: var(--maisEscuro--);
+    color: black;
+    padding: 10px 35px;
+}
+
+.marcas-h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+.marcas {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marcas div {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.marcas img {
+    flex: 1 1 280px;
+}
+
+.limpeza {
+    padding: 20px;
+    background-color: var(--corPrincipal--);
+}
+
+.limpeza img {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.limpeza h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.limpeza p {
+    color: white;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.solicitar li {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.solicitar a {
+    font-size: bolder;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--maisForte--);
+}
+
+.solicitar a:hover {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    font-size: 1.1em;
+    color: white;
+    background-color: var(--maisForte--);
+}
+
+@media (max-width: 616px) {
+    .marcas div {
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+    .marcas img {
+        width: 230px;
+        flex: 1 1 230px;
+    }
+
+}
+
+@media (max-width: 556px) {
+    .servicos img {
+        max-width: 310px;
+    }
+    
+    .flex {
+        margin: 20px auto;
+        padding: 10px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 390px) {
+    .servicos img {
+        max-width: 280px;
+    }
+    
+    .flex {
+        margin: 20px auto;
+        padding: 10px;
+        width: 290px;
+    }
+}
