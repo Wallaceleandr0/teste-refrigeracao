@@ -18,6 +18,12 @@ img {
 }
 
 header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +46,7 @@ header {
     font-weight: bolder;
     color: white;
     font-size: 1.2em;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .menu a:hover {
@@ -102,7 +108,6 @@ header {
 }
 
 .agendar {
-    position: relative;
     font-weight: bolder;
     color: white;
     font-size: 15px;
@@ -200,25 +205,30 @@ header {
     flex: 1 1 280px;
 }
 
-.limpeza {
+.manutencao-limpeza {
+    display: flex;
     padding: 20px;
     background-color: var(--corPrincipal--);
 }
 
-.limpeza img {
-    display: block;
-    margin: 0 auto;
-    max-width: 800px;
+.limpeza, .instalacao {
+    padding: 5px;
 }
 
-.limpeza h2 {
+.manutencao-limpeza img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.manutencao-limpeza h2 {
     color: white;
     text-align: center;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.limpeza p {
+.manutencao-limpeza p {
     color: white;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -260,6 +270,10 @@ footer {
     .marcas img {
         width: 230px;
         flex: 1 1 230px;
+    }
+
+    .manutencao-limpeza {
+        flex-direction: column;
     }
 
 }
