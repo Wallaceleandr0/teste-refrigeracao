@@ -50,7 +50,8 @@ img {
     width: 100%;
     height: 60px;
     padding: 8px;
-    background-color: #4787af;
+    background-image: linear-gradient(25deg, #165074, #2b78a8);
+    box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.308);
     align-items: center;
 }
 
@@ -73,6 +74,7 @@ img {
 }
 
 .header-principal p:hover {
+    margin-top: 5px;
     font-size: 1.1em;
 }
 
@@ -248,6 +250,7 @@ img {
 
 .manutencao-limpeza img {
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
     display: block;
     margin: 0 auto;
     max-width: 600px;
@@ -290,7 +293,7 @@ img {
 }
 
 .assistencia img {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.151);
     border-radius: 10px;
     display: block;
     margin: 0 auto;

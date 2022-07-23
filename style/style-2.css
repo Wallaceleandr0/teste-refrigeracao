@@ -1,1 +1,84 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap'); /*font-family: 'Mochiy Pop One', sans-serif;*/
+
+:root {
+    --corPrincipal-- :#4787af;
+    --maisEscuro-- : #2b78a8;
+    --maisForte-- : #165074;
+}
+
+body {
+    padding: 10px;
+    background-color: var(--corPrincipal--);
+}
+
+.header-principal {
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    background-image: linear-gradient(25deg, #165074, #2b78a8);
+    box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.308);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-principal a {
+    font-size: 1.2em;
+    color: white;
+}
+
+.header-principal a:hover {
+    text-decoration: underline;
+}
+
+.numero {
+    margin-right: 20px;
+}
+
+.numero:hover {
+    margin-bottom: 2px;
+    font-size: 1.3em;
+} 
+
+.seta {
+    padding-left: 2px;
+}
+
+.seta:hover {
+    padding: 0;
+}
+
+
+.box-container {
+    padding: 10px;
+    background-color: var(--maisForte--);
+    border-radius: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 150px auto;
+    max-width: 550px;
+}
+
+.box-container h1 {
+    font-size: 2em;
+}
+
+.box-container p {
+    margin-top: 10px;
+    font-size: 1em;
+}
