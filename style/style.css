@@ -25,6 +25,15 @@ html {
     margin-top: 16px;
 }
 
+header a img {
+    width: 120px;
+}
+
+header a img:hover {
+    margin-bottom: 3px;
+    width: 124px;
+}
+
 img {
     width: 100%;
 }
