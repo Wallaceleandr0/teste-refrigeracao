@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Márcio Refrigeração</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+    <a class="whatsapp-link" href="https://wa.me/5521970290431?text=Olá%20Márcio,%20me%20interessei%20em%20seu%20serviço." target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
     <header class="header-principal">
-        <a href="#logo-scroll" class="logo">MFA</a>
-        <ul class="menu">
-            <li><a href="#servicos-scroll">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <div class="header-flex">
+            <a href="#logo-scroll" class="logo">MFA</a>
+            <ul class="menu">
+                <li><a href="#servicos-scroll">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <p><a href="https://wa.me/5521970290431?text=Olá%20Márcio,%20me%20interessei%20em%20seu%20serviço." target="_blank">(21)97029-0431</a></p>
     </header>
     <section id="logo-scroll" class="info-1"> <!--Imagem efeito paralax-->
             <div class="box">
-                <p>AGENDE SUA CONSULTA, É POR CONTA DA CASA!!</br> <a href="#" class="agendar">Agendar</a> </p>
+                <p>AGENDE SUA CONSULTA, É POR CONTA DA CASA!!</br> <a href="https://wa.me/5521970290431?text=Olá%20Márcio,%20me%20interessei%20em%20seu%20serviço." target="_blank" class="agendar">Agendar</a> </p>
             </div>
     </section>
     <main class="main-principal">
@@ -43,9 +50,9 @@
                 <p>Esse é um de nossos serviços, faço meu trabalho com toda dedicação e o maior cuidado com os aparelhos.</p>
             </div>
         </section>
-        <div class="obras">
-            <h2>Obras Realizadas</h2>
-            <a href="#">Ver obras</a>
+        <div class="servicos-prestado">
+            <h2>Serviços Prestado</h2>
+            <a href="#">Ver serviços</a>
         </div>
         <h2 class="marcas-h2">Marcas que trabalhamos</h2>
         <div class="mid-marcas">
@@ -83,6 +90,21 @@
                 <li><a href="#">SOLICITAR ORÇAMENTO</a></li>
             </div>!-->
         </section>
+        <div class="container-form">
+            <h2>Contato</h2>
+            <div id="contact">
+                <form action="https://formsubmit.co/wallaceleandro2003@gmail.com" method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Seu nome" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <textarea name="message" placeholder="Escreva aqui" id="" cols="31" rows="8"></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="file:///C:/Users/Aprenzy/Desktop/Refrigera%C3%A7%C3%A3o/obrigado.html#">
+                    <button type="submit">Enviar</button>
+                           </form>
+            </div>
+        </div>
     </main>
     <footer>
         <p>© Copyright 2022 - Todos os direitos reservados</p>
