@@ -57,7 +57,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 85px;
     padding: 8px;
     background-image: linear-gradient(25deg, #165074, #2b78a8);
     box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.308);
@@ -82,8 +82,8 @@ img {
 }
 
 .header-principal p:hover {
-    margin-right: 18px;
-    padding-bottom: 8px;
+    margin-right: 15px;
+    padding-bottom: 10px;
     font-size: 1.1em;
 }
 
@@ -183,7 +183,7 @@ img {
 }
 
 .servicos p {
-    max-width: 250px;
+    max-width: 350px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
 }
 
