@@ -7,6 +7,7 @@ html {
 }
 
 .whatsapp-link {
+    position: fixed;
     width: 60px;
     height: 60px;
     bottom: 40px;
