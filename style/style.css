@@ -164,6 +164,10 @@ img {
     margin: 0 auto;
 }
 
+#p-shadow {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+
 .title h2 {
     margin-top: 20px;
     text-align: center;
