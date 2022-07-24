@@ -426,8 +426,13 @@ button {
 @media (max-width: 556px) {
     .servicos img {
         max-width: 310px;
+        
     }
     
+    #maquina-lavar {
+        height: 250px;
+    }
+
     .flex {
         margin: 20px auto;
         padding: 10px;
