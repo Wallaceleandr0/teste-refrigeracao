@@ -15,8 +15,12 @@
 }
 
 body {
-    padding: 10px;
     background-color: var(--corPrincipal--);
+    min-height: 100%;
+}
+
+main {
+    padding: 10px;
 }
 
 .header-principal {
@@ -63,6 +67,7 @@ body {
 
 
 .box-container {
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.274);
     padding: 10px;
     background-color: var(--maisForte--);
     border-radius: 10px;
@@ -70,7 +75,7 @@ body {
     font-weight: bolder;
     color: white;
     text-align: center;
-    margin: 150px auto;
+    margin: 100px auto 0 auto;
     max-width: 550px;
 }
 
@@ -81,4 +86,46 @@ body {
 .box-container p {
     margin-top: 10px;
     font-size: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+.img {
+    max-width: 800px;
+    margin: 70px auto 0 auto;
+}
+
+.img img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.274);
+}
+
+.whats {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.whats img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.whats img:hover {
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 1px;
+    font-size: 1.1em;
+    color: white;
+    background-color: var(--maisForte--);
 }
